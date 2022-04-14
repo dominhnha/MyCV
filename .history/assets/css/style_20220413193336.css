@@ -1,0 +1,76 @@
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px rgba(143, 135, 135, 0.9);
+}
+
+.header__list{
+    display:flex;
+    font-size:3.4rem;
+    
+}
+.header__list-item{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.header__list-link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color:var(text-color);
+    transition: 0.1s;
+}
+.header__list-link-icon{
+    font-size:3.0rem;
+    
+    margin-right: 10px;
+}
+.header__list-link-icon--mg-top{
+    margin-top: -2px;
+}
+.header__list-link:hover{
+    color:white;
+    background-color:var(--primary-color);
+}
+/* -----------------slider----------------------- */
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+.slider{
+    background-image: url(../IMG/BRG_IMG4.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    min-height:100vh;
+    max-width: 100%;
+    position:relative;
+}
+.container-text {
+  background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-top: 20px;
+  font-size:100px;
+  font-family: 'Bungee', cursive;
+  animation: filling 3s ease forwards;
+}
+.slider-waper{
+    background-color: black;
+    padding-top:20px;
+    position: absolute;
+}

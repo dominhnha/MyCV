@@ -1,0 +1,11 @@
+.slider{
+    background-image: url(../IMG/BGR_slider2.webp);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    min-height:100vh;
+    max-width: 100%;
+}
+.block{
+
+}

@@ -1,0 +1,26 @@
+.slider{
+    background-image: url(../IMG/BRG_IMG4.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    min-height:100vh;
+    max-width: 100%;
+}
+
+.header{
+    
+
+}
+.header__list{
+    display:flex;
+    font-size:3.4rem;
+}
+.header__list-item{
+    list-style: none;
+}
+.header__list-link{
+    display:block;
+    text-decoration: none;
+    padding:10px 20px;
+}
