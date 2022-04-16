@@ -1,0 +1,16 @@
+@media screen and (max-width: 767.98px) {
+    .header__list{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    .nav__bars-btn{
+        display: block;
+    }
+    .container-text{
+        font-size: 4.0rem;
+    }
+}
+
+ 

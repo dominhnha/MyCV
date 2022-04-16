@@ -1,0 +1,33 @@
+@media screen and (max-width: 767.98px) {
+    .header__list{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    .nav__bars-btn{
+        display: block;
+    }
+    /* .slider-waper{
+        min-width: 100%;
+        padding: 30px 0;
+    } */
+    
+    
+}
+@media screen and (min-width: 1024px) {
+    /* .slider-waper{
+        min-width: 100%;
+        padding: 30px 0;
+    } */
+}
+@media screen and (min-width: 768px) {
+    /* .slider-waper{
+        min-width: 100%;
+        padding: 30px 0;
+    } */
+}
+
+
+
+ 
